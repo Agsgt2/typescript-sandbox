@@ -1,0 +1,9 @@
+export type promisednumber = Promise<number>
+export type promisedstring = Promise<string>
+export type promisedbool = Promise<boolean>
+export type promisedall = Promise<any>
+export type promisedunknown = Promise<unknown>
+export type promisedundefined = Promise<undefined>
+export type promisedreadonly<R> = Promise<Readonly<R>>
+export type promisedarray<A> = Promise<A[]>
+export type promisedvoid = Promise<void>
