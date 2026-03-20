@@ -1,5 +1,3 @@
-import { returnIfElse } from "./ifWeCanDoIt.mts";
-
 export type point = {
     x: number;
     y: number;
